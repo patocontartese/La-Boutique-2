@@ -14,22 +14,35 @@
             <div class="nav__logo">
                 <h2 class="nav__title">Logo.</h2>
             </div>
-
-            <ul class="nav__link nav link__menu">
+            <ul class="nav link__menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="#aboutus" class="nav__links">AboutUs</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">AboutUs</a>
+                    <a href="#products" class="nav__links">Products</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Products</a>
+                    <a href="#marcas" class="nav__links">Marcas</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contact</a>
+                    <a href="#contact" class="nav__links">Contact</a>
                 </li>
-
                 <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <ul class="nav__link">
+                <li class="nav__items">
+                    <a href="#aboutus" class="nav__links">AboutUs</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#products" class="nav__links">Products</a>
+                </li>
+                <li class="nav__items" id="inicio">
+                    <a href="#marcas" class="nav__links">Marcas</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contact" class="nav__links">Contact</a>
+                </li>
             </ul>
             <div class="nav__menu">
                 <img src="./images/menu.svg" class="nav__img">
@@ -46,7 +59,7 @@
         </div>
     </header>
     <main>
-        <section class="testimony" id="#">
+        <section class="testimony" id="aboutus">
             <div class="testimony__container container">
                 <img src="./images/leftarrow.svg" class="testimony__arrow" id="before"> 
 
@@ -79,10 +92,38 @@
             </div>
         </section>
 
-        <section class="price container">
+        <section class="price container" id="products">
             <h2 class="subtitle">Products</h2>
 
             <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Picada</p>
+                    <h3 class="price__price">Price</h3>
+
+                    <div class="price__items">
+                        <img src="images/picada.jpg" class="price__img" >
+                        <p class="price__features">Picada</p>
+                        <p class="price__features">Picada</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Comprar</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Picada </p>
+                    <h3 class="price__price">Price</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Picada</p>
+                        <p class="price__features">Picada</p>
+                        <p class="price__features">Picada</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Comprar</a>
+                </div>
+
+
                 <div class="price__element">
                     <p class="price__name">Picada</p>
                     <h3 class="price__price">Price</h3>
@@ -97,8 +138,22 @@
                 </div>
 
 
-                <div class="price__element price__element--best">
-                    <p class="price__name">Picada Grande</p>
+                <div class="price__element">
+                    <p class="price__name">Picada</p>
+                    <h3 class="price__price">Price</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Picada</p>
+                        <p class="price__features">Picada</p>
+                        <p class="price__features">Picada</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Comprar</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Picada</p>
                     <h3 class="price__price">Price</h3>
 
                     <div class="price__items">
@@ -127,13 +182,38 @@
 
             </div>
         </section>
+        <div class="contenedor">
+            <div class="slider-contenedor">
+                <section class="contenido-slider" id="marcas">
+                    <div>
+                    </div>
+                    <img src="images/loscalvos.png" alt="loscalvos">
+                </section>
+                <section class="contenido-slider">
+                    <div>
+                    </div>
+                    <img src="images/SANTAROSA-LAYOUT-Logo100.png" alt="santarosa">
+                </section>
+                <section class="contenido-slider">
+                    <div>
+                    </div>
+                    <img src="images/paladini.jpg" alt="paladini">
+                </section>
+                <section class="contenido-slider">
+                    <div>
+                    </div>
+                    <img src="images/loscalvos.png" alt="los calvos">
+                </section>
+            </div>
+        </div>
 
         <section class="questions container">
             <h2 class="subtitle"></h2>
             <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
+                doloribus neque perspiciatis sapiente fuga.
+            </p>
 
-            <section class="questions__container">
+            <section class="questions__container" id="contact">
                 <article class="questions__padding">
                     <div class="questions__answer">
                         <h3 class="questions__title">¿Donde estamos?
@@ -150,40 +230,23 @@
                             quam atque?</p>
                     </div>
                 </article>
+                <section class="contact__contenedor">
+                 <ul class="redes__contenedor">
+                     <li class="redes">
+                            <a href="https://api.whatsapp.com/send?phone=1161924871" class="red__contenedor">
+                                <img src="./images/whatsapp.svg">   
+                                <h2>WhatsApp</h2> 
+                            </a>
+                     </li>
+                     <li class="redes">
+                         <a href="https://www.instagram.com/la_boutique_del_fiambre/" class="red__contenedor">
+                            <img src="./images/instagram.svg">   
+                            <h2>Instagram</h2> 
+                         </a>
+                     </li>
+                 </ul>
 
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">Marcas
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">Contact
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
+                </section>
             </section>
     </main>
     <footer class="footer">
@@ -193,16 +256,16 @@
 
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#aboutus" class="nav__links">AboutUs</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">AboutUs</a>
+                        <a href="#products" class="nav__links">Products</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Products</a>
+                        <a href="#marcas" class="nav__links">Marcas</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contact</a>
+                        <a href="#contact" class="nav__links">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -224,6 +287,7 @@
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/marcas.js"></script>
 </body>
 
 </html>
