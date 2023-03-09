@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
     <script src="https://kit.fontawesome.com/90154cf768.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
     <title>La Boutique del Fiambre</title>
@@ -30,6 +32,9 @@
                     <a href="#marcas" class="nav__links">Marcas</a>
                 </li>
                 <li class="nav__items">
+                    <a href="#ubicacion" class="nav__links">Ubicación</a>
+                </li>
+                <li class="nav__items">
                     <a href="#contact" class="nav__links">Contact</a>
                 </li>
                 <img src="./images/close.svg" class="nav__close">
@@ -46,6 +51,9 @@
                     <a href="#marcas" class="nav__links">Marcas</a>
                 </li>
                 <li class="nav__items">
+                    <a href="#ubicacion" class="nav__links">Ubicación</a>
+                </li>
+                <li class="nav__items">
                     <a href="#contact" class="nav__links">Contact</a>
                 </li>
             </ul>
@@ -53,50 +61,31 @@
                 <img src="./images/menu.svg" class="nav__img">
             </div>
         </nav>
-        
-        </section>
-        <div>
-            <section class="hero__container container">
-                <h1 class="hero__title"></h1>
-                <p class="hero__paragraph"></p>
-            <a href="#" class="cta"></a>
-            </section>
-        </div>
     </header>
     <main>
-        <section class="testimony" id="aboutus">
-            <div class="testimony__container container">
-                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before"> 
 
-                <section class="testimony__body testimony__body--show" data-id="1">
-                    <figure class="testimony__picture">
-                        <img src="./images/picada.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="2">
-                    <figure class="testimony__picture">
-                        <img src="./images/los calvos.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="3">
-                    <figure class="testimony__picture">
-                        <img src="./images/foto 3.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="4">
-                    <figure class="testimony__picture">
-                        <img src="./images/1208985_537139616356921_1393950096_n.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-
-                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
-            </div>
+        <section class="about__container" id="aboutus">
+            <h2 class="subtitle">Nosotros</h2>
+            <div class="swiper">
+  
+                <div class="swiper-wrapper">
+                  
+                  <div class="swiper-slide"><img src="images/los calvos.jpg" ></div>
+                  <div class="swiper-slide"><img src="images/los calvos.jpg" ></div>
+                  <div class="swiper-slide"><img src="images/los calvos.jpg" ></div>
+                  <div class="swiper-slide"><img src="images/los calvos.jpg" ></div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+              
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
         </section>
-
+        
+        
+</div>
+        
         <section class="price container" id="products">
             <h2 class="subtitle">Products</h2>
 
@@ -111,7 +100,7 @@
                         <p class="price__features">Picada</p>
                     </div>
 
-                    <a href="#" class="price__cta">Comprar</a>
+                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
                 </div>
 
 
@@ -125,7 +114,7 @@
                         <p class="price__features">Picada</p>
                     </div>
 
-                    <a href="#" class="price__cta">Comprar</a>
+                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
                 </div>
 
 
@@ -139,7 +128,7 @@
                         <p class="price__features">Picada</p>
                     </div>
 
-                    <a href="#" class="price__cta">Comprar</a>
+                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
                 </div>
 
 
@@ -153,7 +142,7 @@
                         <p class="price__features">Picada</p>
                     </div>
 
-                    <a href="#" class="price__cta">Comprar</a>
+                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
                 </div>
 
                 <div class="price__element">
@@ -166,7 +155,7 @@
                         <p class="price__features">Picada</p>
                     </div>
 
-                    <a href="#" class="price__cta">Comprar</a>
+                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
                 </div>
 
                 <div class="price__element">
@@ -179,9 +168,9 @@
                         <p class="price__features">Picada</p>
                     </div>
 
-                    <a href="#" class="price__cta">Comprar</a>
+                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
                 </div>
-                <div class="metodos__pago">
+                <div class="metodos__pago" id="marcas">
                     <div class="metodos">
                            <lord-icon class="icono"
                              src="https://cdn.lordicon.com/xxwwxrom.json"
@@ -190,15 +179,6 @@
                           </lord-icon>
                           <h2 class="titulo__metodo">PAGÁ CON TARJETA O EFECTIVO</h2>
                           <p class="comentario">Abona con todos los medios de pago. </p>
-                    </div>
-                    <div class="metodos">
-                          <lord-icon class="icono"
-                             src="https://cdn.lordicon.com/hyhnpiza.json"
-                             trigger="hover"
-                             style="width:250px;height:250px">
-                         </lord-icon>
-                         <h2 class="titulo__metodo">ENVIÓ RAPÍDO Y SEGURO</h2>
-                         <p class="comentario">Elegí recibir tu compra en tu domicilio.</p>
                     </div>
                     <div class="metodos">
                         <lord-icon class="icono"
@@ -214,7 +194,7 @@
 
             </div>
         </section>
-        <div class="slider" id="marcas">
+        <div class="slider" >
             <div class="slide-track">
                 <div class="slide">
                     <img src="images/bocatti.png" alt="">
@@ -262,79 +242,45 @@
             </div>
         </div>
 
-        <section class="questions container">
-            <h2 class="subtitle"></h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.
-            </p>
-
-            <section class="questions__container" id="contact">
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Donde estamos?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
+        <section class="ubicacion__container" id="ubicacion">
+            <h2 class="subtitle">¿Donde estamos?</h2>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.29573826714005!2d-58.575713174404754!3d-34.53231770019121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba6ac19920b7%3A0x9f3c393dbdeec8d1!2sFiambrer%C3%ADa%20%22Los%20Calvos%22!5e0!3m2!1ses!2sar!4v1678221088957!5m2!1ses!2sar"
+                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        </main>
+        <footer class="footer" id="contact">
+            <section class="footer__container container">
                 <section class="contact__contenedor">
-                 <ul class="redes__contenedor">
-                     <li class="redes">
-                            <a href="https://api.whatsapp.com/send?phone=1161924871"></a>
-                                <img src="images/whatsapp.svg">
-                                <h2 class="red">WhatsApp</h2> 
+                    <div class="wrapper">
+                        <div class="icon whatsapp">
+                            <div class="tooltip">WHATSAPP</div>
+                            <a href="https://api.whatsapp.com/send?phone=1161924871">
+                                <span><i class="fa-brands fa-whatsapp"></i></span>
                             </a>
-                     </li>
-                     <li class="redes">
-                         <a href="https://www.instagram.com/la_boutique_del_fiambre/"></a>
-                            <img src="images/instagram.svg"> 
-                            <h2 class="red">Instagram</h2> 
-                         </a>
-                     </li>
-                 </ul>
-
+                        </div>
+                        <div class="icon instagram">
+                            <div class="tooltip">INSTAGRAM</div>
+                            <a href="https://www.instagram.com/la_boutique_del_fiambre/">
+                                <span><i class="fab fa-instagram"></i></span>
+                            </a>
+                        </div>
+                    </div>
                 </section>
-            </section>
-    </main>
-    <footer class="footer">
-        <section class="footer__container container">
-            <nav class="nav nav--footer">
-                <h2 class="footer__title">La Boutíque del Fiambre.</h2>
-
-                <ul class="nav__link nav__link--footer">
-                    <li class="nav__items">
-                        <a href="#aboutus" class="nav__links">AboutUs</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#products" class="nav__links">Products</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#marcas" class="nav__links">Marcas</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#contact" class="nav__links">Contact</a>
-                    </li>
+                <ul class="informacion">
+                    <li class="info">CONTACTANOS</li>
+                    <li class="info">PROVEEDORES</li>
+                    <li class="info">TERMINOS Y CONDICIONES</li>
+                    <li class="info">POLÍTICA DE PRIVACIDAD</li>
                 </ul>
-            </nav>
-
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <div class="footer__inputs">
-
-                </div>
-            </form>
+                <h2 class="footer__title">La Boutíque del Fiambre.</h2>
+                <p class="text__info">Tel: 4729-1191</p>
+                <p class="text__info">Lunes a Sábados de .. a .. y Domingos de .. a ..</p>
+                <p class="text__info">Pácifico Rodriguez 7275</p>
         </section>
 
         <section class="footer__copy container">
-            <div class="footer__social">
-            </div>
             <h3 class="footer__copyright">Derechos reservados &copy;</h3>
         </section>
     </footer>
@@ -342,6 +288,7 @@
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+
 </body>
 
 </html>
