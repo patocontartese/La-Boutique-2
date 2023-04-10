@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>login LBDF</title>
+</head>
+<body>
+    <body>
+        <header class="hero">
+            <nav class="nav_container">
+                <div class="nav__logo">
+                    <h2 class="nav__title">Logo.</h2>
+                </div>
+                <ul class="nav__link">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Volver al home</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="login_container">
+                <form class="login"  action='login.html' method="POST">
+                    <div class="logueo">
+                        <h2 class="subtitle"> Iniciar Sesión</h2>
+                        <div class="rellenar">
+                            <h4>Coloca tu correo electronico</h4>
+                            <input type="email" name="email" id="emailLogin" placeholder="guillermo@gmail.com*">                        
+                        </div>
+                        <div class="rellenar">
+                            <h4>Coloca tu contraseña</h4>
+                            <input type="password" name="password" id ="passwordLogin" placeholder="*******">
+                        </div>
+                    </div>
+                    <button type="button" class="boton" onclick="login()"> comoestas </button>
+                  </form>
+            </div>
+        </main>
+
+    
+            
+      
+        <script src="./js/menu.js"></script>
+        <script src="./js/login.js"></script>
+
+</body>
+</html>

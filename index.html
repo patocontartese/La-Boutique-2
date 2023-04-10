@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/productdetail.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
     <script src="https://kit.fontawesome.com/90154cf768.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 
     <title>La Boutique del Fiambre</title>
@@ -23,38 +26,38 @@
             </div>
             <ul class="nav link__menu">
                 <li class="nav__items">
-                    <a href="#aboutus" class="nav__links">AboutUs</a>
+                    <a href="#products" class="nav__links">Picadas</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#products" class="nav__links">Products</a>
+                    <a href="#marcas" class="nav__links">Proveedores</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#marcas" class="nav__links">Marcas</a>
+                    <a href="#ubicacion" class="nav__links">Dónde estamos</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#ubicacion" class="nav__links">Ubicación</a>
+                    <a href="#ustedes" class="nav__links">Ustedes</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#contact" class="nav__links">Contact</a>
+                    <a href="#contact" class="nav__links">Contactanos</a>
                 </li>
                 <img src="./images/close.svg" class="nav__close">
             </ul>
 
             <ul class="nav__link">
                 <li class="nav__items">
-                    <a href="#aboutus" class="nav__links">AboutUs</a>
+                    <a href="#products" class="nav__links">Picadas</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#products" class="nav__links">Products</a>
+                    <a href="#marcas" class="nav__links">Proveedores</a>
                 </li>
                 <li class="nav__items" id="inicio">
-                    <a href="#marcas" class="nav__links">Marcas</a>
+                    <a href="#ubicacion" class="nav__links">Dónde estamos</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#ubicacion" class="nav__links">Ubicación</a>
+                    <a href="#ustedes" class="nav__links">Ustedes</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#contact" class="nav__links">Contact</a>
+                    <a href="#contact" class="nav__links">Contactanos</a>
                 </li>
             </ul>
             <div class="nav__menu">
@@ -69,10 +72,10 @@
   
                 <div class="swiper-wrapper">
                   
-                  <div class="swiper-slide"><img src="images/prueba2.webp" ></div>
-                  <div class="swiper-slide"><img src="images/los calvos.jpg" ></div>
-                  <div class="swiper-slide"><img src="images/los calvos.jpg" ></div>
-                  <div class="swiper-slide"><img src="images/los calvos.jpg" ></div>
+                  <div class="swiper-slide"><img src="images/pruebapromo.jpg" ></div>
+                  <div class="swiper-slide"><img src="images/pruebapromo.jpg" ></div>
+                  <div class="swiper-slide"><img src="images/pruebapromo.jpg" ></div>
+                  <div class="swiper-slide"><img src="images/pruebapromo.jpg" ></div>
                 </div>
                 
                 <div class="swiper-pagination"></div>
@@ -80,118 +83,178 @@
                 
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+            </div>     
+        </section>
+           
+        <section class="price__container" id="products">
+
+            <h3 class="subtitle"> Products </h3>
+ 
+            <div class="price__table">
+ 
+              <div class="product__container">
+                   <div class="price__items">
+                     <div class="price__img">
+                         <img class="img_product" src="images/picadagrande2.jpg">
+                     </div>
+                 </div>
+                 <div class="price__element" data-name="p-1">
+                     <h4 class="price__name">Picada GRANDE</h3>
+                     <p class="cantidad">Comen 8, pican 10</p>   
+                     <p onclick() class="detalle">Ver detalle</p>
+                     <div class="price__price">precio</div>
+                     <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
+                 </div>
+             </div>
+ 
+             <div class="product__container">
+                 <div class="price__items">
+                     <div class="price__img">
+                         <img class="img_product" src="images/picadagrande2.jpg">
+                     </div>
+                 </div>
+                 <div class="price__element" data-name="p-2">
+                     <h4 class="price__name">Picada ...</h3>
+                     <p class="cantidad">Comen .., pican ...</p>   
+                     <p onclick() class="detalle">Ver detalle</p>
+                     <div class="price__price">precio</div>
+                     <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
+                 </div>
+             </div>
+ 
+             <div class="product__container">
+                 <div class="price__items">
+                     <div class="price__img">
+                         <img class="img_product" src="images/picadagrande2.jpg">
+                     </div>
+                 </div>
+                 <div class="price__element" data-name="p-3">
+                     <h4 class="price__name">Picada ...</h3>
+                     <p class="cantidad">Comen ..., pican ...</p>   
+                     <p onclick() class="detalle">Ver detalle</p>
+                     <div class="price__price">precio</div>
+                     <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
+                 </div>
+             </div>
+ 
+             <div class="product__container">
+                 <div class="price__items">
+                     <div class="price__img">
+                         <img class="img_product" src="images/picadagrande2.jpg">
+                     </div>
+                 </div>
+                 <div class="price__element" data-name="p-4">
+                     <h4 class="price__name">Picada ...</h3>
+                     <p class="cantidad">Comen ..., pican ...</p>   
+                     <p onclick() class="detalle">Ver detalle</p>
+                     <div class="price__price">precio</div>
+                     <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
+                 </div>
+             </div>
+ 
+             <div class="product__container">
+                 <div class="price__items">
+                     <div class="price__img">
+                         <img class="img_product" src="images/picadagrande2.jpg">
+                     </div>
+                 </div>
+                 <div class="price__element" data-name="p-5">
+                     <h4 class="price__name">Picada ...</h3>
+                     <p class="cantidad">Comen ..., pican ...</p>   
+                     <p onclick() class="detalle">Ver detalle</p>
+                     <div class="price__price">precio</div>
+                     <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
+                  </div>
+             </div>
+
+         </div>
+     </section>
+ 
+      <section class="products-preview" id="detail">
+ 
+          <div class="preview" data-target="p-1">
+              <i class="fas fa-times"></i>
+              <h3>Picada </h3>
+              <p>Jamón crudo, lomo c/ hierbas, mortadela, queso MDQ, roquefort, salchichon primavera,
+                fiambrin, longaniza, peperoni, jamon cocido, berenjenas, aceitunas (con roquefort, verdes y negras), nueces y almendras.</p>
+              <div class="price">precio</div>
+              <div class="buttons">
+                 <a href="#" class="buy">Comprar</a>
+             </div>
+         </div>
+ 
+          <div class="preview" data-target="p-2">
+             <i class="fas fa-times"></i>
+             <h3>Picada</h3>
+             <p>Jamón crudo, lomo c/ hierbas, mortadela, queso MDQ, roquefort, salchichon primavera,
+                fiambrin, longaniza, peperoni, jamon cocido, berenjenas, aceitunas (con roquefort, verdes y negras), nueces y almendras.</p>
+             <div class="price">precio</div>
+             <div class="buttons">
+                 <a href="#" class="buy">Comprar</a>
+             </div>
+         </div>
+          <div class="preview" data-target="p-3">
+             <i class="fas fa-times"></i>
+             <h3>Picada</h3>
+             <p>Jamón crudo, lomo c/ hierbas, mortadela, queso MDQ, roquefort, salchichon primavera,
+                fiambrin, longaniza, peperoni, jamon cocido, berenjenas, aceitunas (con roquefort, verdes y negras), nueces y almendras.</p>
+             <div class="price">precio</div>
+             <div class="buttons">
+                 <a href="#" class="buy">Comprar</a>
+             </div>
+         </div>
+          <div class="preview" data-target="p-4">
+             <i class="fas fa-times"></i>
+             <h3>Picada</h3>
+             <p>Jamón crudo, lomo c/ hierbas, mortadela, queso MDQ, roquefort, salchichon primavera,
+                fiambrin, longaniza, peperoni, jamon cocido, berenjenas, aceitunas (con roquefort, verdes y negras), nueces y almendras.</p>
+             <div class="price">precio</div>
+             <div class="buttons">
+                 <a href="#" class="buy">Comprar</a>
+             </div>
+         </div>
+          <div class="preview" data-target="p-5">
+             <i class="fas fa-times"></i>
+             <h3>Picada</h3>
+             <p>Jamón crudo, lomo c/ hierbas, mortadela, queso MDQ, roquefort, salchichon primavera,
+                fiambrin, longaniza, peperoni, jamon cocido, berenjenas, aceitunas (con roquefort, verdes y negras), nueces y almendras.</p>
+             <div class="price">precio</div>
+             <div class="buttons">
+                 <a href="#" class="buy">Comprar</a>
+                </div>
+            </div>
         </section>
         
-        
-</div>
-        
-        <section class="price container" id="products">
-            <h2 class="subtitle">Products</h2>
-
-            <div class="price__table">
-                <div class="price__element">
-                    <p class="price__name">Picada</p>
-                    <h3 class="price__price">Price</h3>
-
-                    <div class="price__items">
-                        <img src="images/picada.jpg" class="price__img" >
-                        <p class="price__features">Picada</p>
-                        <p class="price__features">Picada</p>
-                    </div>
-
-                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
-                </div>
-
-
-                <div class="price__element">
-                    <p class="price__name">Picada</p>
-                    <h3 class="price__price">Price</h3>
-
-                    <div class="price__items">
-                        <img src="images/picada.jpg" class="price__img" >
-                        <p class="price__features">Picada</p>
-                        <p class="price__features">Picada</p>
-                    </div>
-
-                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
-                </div>
-
-
-                <div class="price__element">
-                    <p class="price__name">Picada</p>
-                    <h3 class="price__price">Price</h3>
-
-                    <div class="price__items">
-                        <img src="images/picada.jpg" class="price__img" >
-                        <p class="price__features">Picada</p>
-                        <p class="price__features">Picada</p>
-                    </div>
-
-                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
-                </div>
-
-
-                <div class="price__element">
-                    <p class="price__name">Picada</p>
-                    <h3 class="price__price">Price</h3>
-
-                    <div class="price__items">
-                        <img src="images/picada.jpg" class="price__img" >
-                        <p class="price__features">Picada</p>
-                        <p class="price__features">Picada</p>
-                    </div>
-
-                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
-                </div>
-
-                <div class="price__element">
-                    <p class="price__name">Picada</p>
-                    <h3 class="price__price">Price</h3>
-
-                    <div class="price__items">
-                        <img src="images/picada.jpg" class="price__img" >
-                        <p class="price__features">Picada</p>
-                        <p class="price__features">Picada</p>
-                    </div>
-
-                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
-                </div>
-
-                <div class="price__element">
-                    <p class="price__name">Picada</p>
-                    <h3 class="price__price">Price</h3>
-
-                    <div class="price__items">
-                        <img src="images/picada.jpg" class="price__img" >
-                        <p class="price__features">Picada</p>
-                        <p class="price__features">Picada</p>
-                    </div>
-
-                    <a href="https://api.whatsapp.com/send?phone=1161924871" class="price__cta">Comprar</a>
-                </div>
-                <div class="metodos__pago" id="marcas">
-                    <div class="metodos">
-                           <lord-icon class="icono"
-                             src="https://cdn.lordicon.com/xxwwxrom.json"
-                             trigger="hover"
-                             style="width:250px;height:250px">
-                          </lord-icon>
-                          <h2 class="titulo__metodo">PAGÁ CON TARJETA O EFECTIVO</h2>
-                          <p class="comentario">Abona con todos los medios de pago. </p>
-                    </div>
-                    <div class="metodos">
-                        <lord-icon class="icono"
-                            src="https://cdn.lordicon.com/medpcfcy.json"
-                            trigger="hover"
-                            style="width:250px;height:250px">
-                        </lord-icon>
-                       <h2 class="titulo__metodo">COMPRA PROTEGIDA</h2>
-                       <p class="comentario">Te acompañamos hasta que recibas lo que compraste.</p>
-                  </div>
-                </div>
-
-
+        <section class="ubicacion__container" id="ubicacion">
+            <h2 class="subtitle">¿Donde estamos?</h2>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.29573826714005!2d-58.575713174404754!3d-34.53231770019121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba6ac19920b7%3A0x9f3c393dbdeec8d1!2sFiambrer%C3%ADa%20%22Los%20Calvos%22!5e0!3m2!1ses!2sar!4v1678221088957!5m2!1ses!2sar"
+                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+        </section>
+
+        <section class="metodos__pago" id="marcas">
+               <div class="metodos">
+                 <img src="images/bag.png" class="icono"
+                 style="width: 250px; height: 230px;">
+                 <h2 class="titulo__metodo">COMPRA PROTEGIDA</h2>
+                 <p class="comentario">Comunicate por nuestro canal de WhatsApp.
+                 </p>
+             </div> 
+              <div class="metodos">
+                 <img src="images/credit-card.png" class="icono"
+                 style="width: 250px; height: 230px;">
+                 <h2 class="titulo__metodo">PAGÁ CON TARJETA O EFECTIVO</h2>
+                 <p class="comentario">Consultar cuáles son los medios aceptados.
+                 </p>
+             </div>    
+              <div class="metodos">
+                 <img src="images/take-away.png" class="icono"
+                 style="width: 250px; height: 230px;">
+                 <h2 class="titulo__metodo">........</h2>
+                 <p class="comentario">
+                 </p>
+             </div>
         </section>
         <div class="slider" >
             <div class="slide-track">
@@ -216,6 +279,15 @@
                 <div class="slide">
                     <img src="images/puntadelagua.jpg" alt="">
                 </div>
+                <div class="slide">
+                    <img src="images/Milkaut.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/Barraza.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/Sancor.png" alt="">
+                </div>
     
                 <div class="slide">
                     <img src="images/bocatti.png" alt="">
@@ -238,15 +310,20 @@
                 <div class="slide">
                     <img src="images/puntadelagua.jpg" alt="">
                 </div>
+                <div class="slide">
+                    <img src="images/Milkaut.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/Barraza.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/Sancor.png" alt="">
+                </div>
             </div>
         </div>
 
-        <section class="ubicacion__container" id="ubicacion">
-            <h2 class="subtitle">¿Donde estamos?</h2>
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.29573826714005!2d-58.575713174404754!3d-34.53231770019121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba6ac19920b7%3A0x9f3c393dbdeec8d1!2sFiambrer%C3%ADa%20%22Los%20Calvos%22!5e0!3m2!1ses!2sar!4v1678221088957!5m2!1ses!2sar"
-                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+        <section class="comentarios" id="ustedes">
+            <div class="elfsight-app-f447f3cf-2380-4247-a7fb-cf97db4055df"></div>
         </section>
         </main>
         <footer class="footer" id="contact">
@@ -265,18 +342,18 @@
                                 <span><i class="fab fa-instagram"></i></span>
                             </a>
                         </div>
-                    </div>
+                    </div>                  
                 </section>
                 <ul class="informacion">
-                    <li class="info">CONTACTANOS</li>
-                    <li class="info">PROVEEDORES</li>
+                    <a href="contact.html"><li class="info">CONTACTANOS</li></a>
+                    <a href="#marcas"><li class="info">PROVEEDORES</li></a>
                     <li class="info">TERMINOS Y CONDICIONES</li>
                     <li class="info">POLÍTICA DE PRIVACIDAD</li>
                 </ul>
-                <h2 class="footer__title">La Boutíque del Fiambre.</h2>
-                <p class="text__info">Tel: 4729-1191</p>
-                <p class="text__info">Lunes a Sábados de .. a .. y Domingos de .. a ..</p>
-                <p class="text__info">Pácifico Rodriguez 7275</p>
+                <p class="text__info">Lunes a Sábados de 09:00 a 14:00 y 17:00 a 21:30.
+                    Domingos de 09:00 a 14:00.</p>
+                    <p class="text__info">Tel: 4729-1191.</p>
+                <p class="text__info">Pácifico Rodriguez 7279.</p>
         </section>
 
         <section class="footer__copy container">
@@ -285,8 +362,9 @@
     </footer>
 
     <script src="./js/slider.js"></script>
-    <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/productdetail.js"></script>
+    <script src="./js/sliderProduct.js"></script>
 
 </body>
 

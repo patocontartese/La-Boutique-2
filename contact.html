@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav_container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Logo.</h2>
+            </div>
+            <ul class="nav__link">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Volver al home</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Contactanos</h1>
+            <form target="_blank" action="https://formsubmit.co/patocontartese@gmail.com" method="POST">
+              <div class="rellenar__container">
+                <div class="form-row">
+                  <div class="rellenar">
+                    <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+                  </div>
+                  <div class="rellenar">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                  </div>
+                  <div class="rellenar">
+                    <input type="text" name="celular" class="form-control" placeholder="Número de celular" required>
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                <textarea placeholder="Tu mensaje" class="form-control" name="message"  required></textarea>
+              </div>
+              <button type="submit" class="boton">Enviar</button>
+              <input type="hidden"  name="_next" value="http://127.0.0.1:5501/index.html">
+              <input type="hidden"  name="_captcha" value="false">        
+            </form>
+          </div>
+    </main>
+    
+</body>
+</html>
